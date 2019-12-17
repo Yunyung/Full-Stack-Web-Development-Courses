@@ -1,0 +1,166 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 800;
+}
+
+p {
+    color: #8f8f8f; 
+}
+
+/* container */
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/* Sections */
+.colored-section {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-section {
+    background-color: #fff;
+}
+
+/* Headings */
+.big-heading {
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5; 
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Navigation Bar */
+.navbar {
+    padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: 200;  
+}
+
+
+/* Title Section */
+#title .container-fluid {
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
+/* Download Button */
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* Title image */
+.title-image {
+    transform: rotate(25deg);
+    width: 60%;
+    position: absolute;
+    right: 20%;
+}
+
+/* Features section*/
+#features {
+    background-color: #fff;
+    position: relative;
+}
+
+.icon {
+    color: #ef8172;
+    padding-bottom: 1rem;
+}
+
+.icon:hover{
+    color: #ff4c68;
+}
+
+.feature-title {
+    font-size: 1.5rem;
+}
+
+.features-item {
+    margin: 50px 0;
+    padding: 3%;
+}
+
+/* Testimonial Section */ 
+
+#testimonials {
+    background-color: #ef8172;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* press section */
+
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* pricing section */
+#pricing {
+    padding: 100px;
+}
+
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.pricing-column {
+    padding: 3% 2%;
+}
+
+/* CTA Section */
+.cta-download-button {
+    margin: 3% 1% 0;
+}
+
+/* footer */
+.social-icon {
+    margin: 20px 10px;
+}
+
+@media (max-width: 1180px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
